@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="inital-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capavle" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>
+the date
+</title>
+</head>
+
+<body>
+	<p id="dateField">&nbsp; </p>
+	
+	<script type="text/javascript">
+	var today=new Date();
+	var then=new Date();
+	then.setFullYear(2012,0,1);
+	var diff= then.getTime()-today.getTime();
+	diff=Math.floor(diff/(1000*60*60*24));
+	var dateLoc = document.getElementById("dateField");
+	dateLoc.innerHTML="There are "+diff+" days until 1/1/2012";
+	</script>
+
+
+</body>
+</html>

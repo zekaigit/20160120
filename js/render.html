@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="inital-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capavle" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>
+	the date
+	</title>
+	<script>
+	var started=new Date();
+	var now=started.getTime();
+	</script>
+</head>
+
+<body>
+	<p id="dateField">&nbsp; </p>
+	
+	<script type="text/javascript">
+	var bottom = new Date();
+	var diff=(bottom.getTime()-now)/1000;
+	var finaltime=diff.toPrecision(5);//toPrecision() 方法可在对象的值超出指定位数时将其转换为指数计数法。
+	var dateLoc=document.getElementById("dateField");
+	dateLoc.innerHTML="Page rendered in "+finaltime+" seconds.";
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,229 @@
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+array (
+)
+NULLarray (
+)
+NULLarray (
+)
+NULLarray (
+)
+NULLarray (
+)
+NULLstart
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: array (
+  0 => 'hello',
+  'cat' => 
+  array (
+    0 => 'hello',
+    1 => 'world',
+  ),
+  'dog' => 1,
+  1 => 'sheep',
+)
+end
+start
+var_export result: 导航到
+end

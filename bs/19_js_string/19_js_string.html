@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>19_js_string</title>
+	</head>
+	<script type="text/javascript" src="19_js_string.js"></script>
+
+	<body>
+		原字符串：<input type="text" id="src" size=50>
+		<br>
+		<br>
+		处理方式：<input type="text" id="way" size=50>
+		<br>
+		<br>
+		得到结果：<input type="text" id="dest" size=50>
+		<br>
+		<br>
+
+		<input type="button" value="1.返回指定位置字符" onclick="deal_string(1)">
+		<input type="button" value="2.检索字符串" onclick="deal_string(2)">
+		<br>
+		<input type="button" value="3.从起始索引号提取字符串中指定数目的字符" onclick="deal_string(3)">
+		<br>
+		<input type="button" value="4.提取字符串中介于两个指定下标之间的字符" onclick="deal_string(4)">
+		<br>
+		<br>
+		<br>
+
+		假设原字符串为：hello world
+		<br>
+		1.处理方式输入：0	
+		<br>
+		按下《1.返回指定位置字符》则查找第二个字符，得到结果为：h
+		<br>
+		<br>
+		2.处理方式输入：w	
+		<br>
+		按下《2.检索字符串》则查找 w 在字符“hello world”中的位置，得到结果为：6
+		<br>
+		<br>
+		3.处理方式输入：1,3		
+		<br>
+		按下《3.从起始索引号提取字符串中指定数目的字符》获取从下标 1 开始后的 3 个字符，得到结果为：ell
+		<br>
+		<br>
+		4.处理方式输入：2,4	
+		<br>	
+		按下《4.提取字符串中介于两个指定下标之间的字符》获取下标从 2 到 4 之间的（4-2=2）个字符，得到结果为：ll
+	</body>
+</html>

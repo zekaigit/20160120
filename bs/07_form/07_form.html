@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>07_form</title>
+	</head>
+	<body>
+		<label>=============表单：&ltform&gt=============</label>
+		<form name="form1" method="get" action="/cgi-bin/a.cgi">
+			<br>
+			用户名:<input type="text" name="user">
+			<br>
+			<br>
+			密码 :<input type="password" name="pwd">
+			<br>
+			<br>
+			文件 :<input type="file" name="file">
+			<br>
+			<br>
+			性别：
+			<br>
+			男:<input type="radio" name="sex" value="female">女:<input type="radio" name="sex" value="male">
+			<br>
+			<br>
+			我喜欢自行车：
+			<input type="checkbox" name="bike">
+			<br>
+			我喜欢汽车：
+			<input type="checkbox" name="vehicle">
+			<br>
+			<br>
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="BMW" selected>BMW</option>
+				<option value="Infiniti">Infiniti</option>
+				<option value="Audi">Audi</option>
+			</select>
+			<br>
+			<br>
+			说点什么吧？
+			<textarea name="comment" rows="3" cols="10"></textarea>
+			<br>
+			<br>
+			<input type="button" value="普通按钮">
+			<br>
+			<br>
+			<input type="hidden" name="fortest" value="testinfo">
+			<br>
+			<br>
+			<input type="image" src="./image/globe_yellow.png">
+			<br>
+			<br>
+			<input type="submit" value="提交">
+			<input type="reset" value="复位">
+		</form>
+	</body>
+</html>

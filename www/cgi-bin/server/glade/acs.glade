@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy project-wide -->
+  <widget class="GtkWindow" id="window1">
+    <property name="width_request">800</property>
+    <property name="height_request">480</property>
+    <property name="title" translatable="yes">ACS</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center</property>
+    <child>
+      <widget class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkLabel" id="label1">
+            <property name="width_request">98</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x6253;&#x5361;&#x65F6;&#x95F4;&#xFF1A;
+</property>
+          </widget>
+          <packing>
+            <property name="x">92</property>
+            <property name="y">17</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label2">
+            <property name="width_request">44</property>
+            <property name="height_request">23</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x59D3;&#x540D;&#xFF1A;
+</property>
+          </widget>
+          <packing>
+            <property name="x">131</property>
+            <property name="y">36</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label3">
+            <property name="width_request">57</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x6027;&#x522B;&#xFF1A;
+</property>
+          </widget>
+          <packing>
+            <property name="x">124</property>
+            <property name="y">66</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label4">
+            <property name="width_request">54</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x5DE5;&#x53F7;&#xFF1A;
+</property>
+          </widget>
+          <packing>
+            <property name="x">126</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_time">
+            <property name="width_request">87</property>
+            <property name="height_request">45</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">2015&#x5E74;&#x3002;&#x3002;&#x3002;</property>
+          </widget>
+          <packing>
+            <property name="x">219</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_id">
+            <property name="width_request">64</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">201000
+</property>
+          </widget>
+          <packing>
+            <property name="x">209</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_name">
+            <property name="width_request">72</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x5F20;&#x91D1;&#x8273;</property>
+          </widget>
+          <packing>
+            <property name="x">206</property>
+            <property name="y">30</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_sex">
+            <property name="width_request">45</property>
+            <property name="height_request">24</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x5973;</property>
+          </widget>
+          <packing>
+            <property name="x">211</property>
+            <property name="y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_info">
+            <property name="width_request">233</property>
+            <property name="height_request">109</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x5BF9;&#x4E0D;&#x8D77;&#xFF0C;&#x4F60;&#x6CA1;&#x6709;&#x6743;&#x9650;&#x8FDB;&#x5165;
+
+&#x6B22;&#x8FCE;&#x6B22;&#x8FCE;&#xFF0C;&#x70ED;&#x70C8;&#x6B22;&#x8FCE;&#xFF01;&#xFF01;&#xFF01;</property>
+          </widget>
+          <packing>
+            <property name="x">89</property>
+            <property name="y">119</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label5">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&#x5361;&#x53F7;&#xFF1A;
+</property>
+          </widget>
+          <packing>
+            <property name="x">103</property>
+            <property name="y">57</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkLabel" id="label_rfid">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">ffffffff</property>
+          </widget>
+          <packing>
+            <property name="x">202</property>
+            <property name="y">51</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

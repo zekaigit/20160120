@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="inital-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capavle" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+function cubeme(incomingNum){
+	if(incomingNum==1){
+		return "What are you doing?";
+	}else{
+		return Math.pow(incomingNum,3);
+	}
+}
+</script>
+
+</head>
+
+<body>
+<script >
+var theNum=2;
+var finalNum=cubeme(theNum);
+
+if(isNaN(finalNum)){
+	alert("you should know that 1 to any power is 1.");
+}else{
+	alert("when cubed, "+theNum+"is " + finalNum);
+}
+</script>
+
+<p>kan de dao ma?</p>
+
+</body>
+</html>

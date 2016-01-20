@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="inital-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capavle" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>
+the date
+</title>
+</head>
+
+<body>
+	<p id="dateField">&nbsp; </p>
+	<script type="text/javascript">
+	var myDate=new Date();
+	var dateString=myDate.toLocaleDateString()+" "+myDate.toLocaleTimeString();
+	var dateLoc = document.getElementById("dateField");
+	dateLoc.innerHTML="Hello - Page Rendered on "+dateString;
+
+	</script>
+
+	<p>kan de dao ma?</p>
+
+</body>
+</html>
